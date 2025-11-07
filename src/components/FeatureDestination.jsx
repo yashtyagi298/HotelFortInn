@@ -21,17 +21,12 @@ const FeaturedDestination = () => {
         Explore some of the most beautiful destinations and pick your perfect stay!
       </p>
 
-      {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center">
-        {destinations.map((dest, index) => (
-          <LocationCard
-            key={index}
-            city={dest.city}
-            image={dest.image}
-            className="w-full max-w-[280px]" // ensures uniform card width
-          />
-        ))}
-      </div>
+    {/* Cards Grid */}
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 w-full">
+  {destinations.map((dest, index) => (
+    <LocationCard key={index} city={dest.city} image={dest.image} />
+  ))}
+</div>
 
       {/* Search Form */}
       <div className="mt-16 ">

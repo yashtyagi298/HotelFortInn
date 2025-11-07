@@ -12,38 +12,41 @@ const LocationCard = ({ city, image }) => {
   return (
     <div
       onClick={handleClick}
-      className="bg-white flex flex-col h-full min-h-[380px] rounded-2xl overflow-hidden border border-gray-200 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+      className="w-full bg-white flex flex-col h-full rounded-2xl overflow-hidden border border-gray-200 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
     >
       {/* Image Section */}
-      <div className="relative w-full h-[230px] sm:h-[250px] bg-gray-100 flex items-center justify-center">
+      <div className="w-full h-[210px] sm:h-[230px] bg-gray-100">
         <img
           src={image}
           alt={`${city} landmark`}
           className="w-full h-full object-cover object-center"
           onError={(e) => {
             e.target.src =
-              "https://via.placeholder.com/400x250?text=Image+Unavailable"; // fallback if image missing
+              'https://via.placeholder.com/400x250?text=Image+Unavailable';
           }}
         />
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col items-center justify-between text-center flex-grow p-4 sm:p-5">
+      <div className="flex flex-col justify-between flex-grow p-4 sm:p-4 text-center">
+        
+        {/* City Name */}
         <div className="flex flex-col items-center">
-          <div className="flex items-center gap-1.5 mb-2">
-            <MapPin className="text-red-600 w-5 h-5" />
-            <h2 className="text-black font-bold text-lg sm:text-xl tracking-wide uppercase">
+          <div className="flex items-center gap-1 mb-1">
+            <MapPin className="text-red-600 w-4 h-4" />
+            <h2 className="text-black font-semibold text-lg uppercase tracking-wide">
               {city}
             </h2>
           </div>
         </div>
 
+        {/* Button */}
         <button
           onClick={(e) => {
             e.stopPropagation();
             handleClick();
           }}
-          className="bg-black hover:bg-gray-800 text-white font-medium py-2 px-6 rounded-full transform transition-all duration-200 hover:scale-105 hover:shadow-md text-sm sm:text-base mt-3"
+          className="bg-black hover:bg-gray-800 text-white font-medium py-2 px-6 rounded-full transition-all duration-200 hover:scale-105 text-sm mt-3"
         >
           Explore more!
         </button>
