@@ -39,7 +39,7 @@ export default function Footer() {
           <h2 className="text-lg font-semibold">Quick Links</h2>
           <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
             <li>
-              <a href="#hero" className="hover:text-white transition">
+              <a href="#home" className="hover:text-white transition">
                 Home
               </a>
             </li>
