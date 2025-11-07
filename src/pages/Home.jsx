@@ -5,28 +5,33 @@ import HotelServices from '../components/HotelService';
 import Testimonials from '../components/Testimonial';
 import Footer from '../components/Footer';
 
-
 const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section id="hero">
+      <section id="home">
         <Hero />
       </section>
 
       {/* Featured Destinations Section */}
-      <section id="featured-destinations" mb-3px>
+      <section id="rooms" className="mt-10">
         <FeatureDestination />
       </section>
-    <div className='mt-8'>
-      <HotelServices/>
-    </div>
-    <div id = "testimonials">
-      <Testimonials/>
-    </div>
-    <div id="footer">
-      <Footer/>
-    </div>
+
+      {/* Hotel Services Section */}
+      <section id="services" className="mt-8">
+        <HotelServices />
+      </section>
+
+      {/* Testimonials Section */}
+      <section id="testimonials" className="mt-8">
+        <Testimonials />
+      </section>
+
+      {/* Footer Section */}
+      <section id="footer" className="mt-8">
+        <Footer />
+      </section>
     </div>
   );
 };

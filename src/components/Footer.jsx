@@ -25,24 +25,20 @@ Every property reflects the city’s soul — the charm of Lucknow, the energy o
 
         {/* Quick Links / Policies */}
         <div className="space-y-3">
-          <h2 className="text-lg font-semibold">Quick Links</h2>
-          <ul className="space-y-2 text-gray-400">
-            <li><a href="#home" className="hover:text-white transition">Home</a></li>
-            <li><a href="#services" className="hover:text-white transition">Services</a></li>
-            <li><a href="#rooms" className="hover:text-white transition">Rooms</a></li>
-            <li><a href="#experiences" className="hover:text-white transition">Testimonials</a></li>
-            <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
-            <li><a href="#terms" className="hover:text-white transition">Terms & Conditions</a></li>
-            <li><a href="#privacy" className="hover:text-white transition">Privacy Policy</a></li>
-            <li><a href="#faq" className="hover:text-white transition">FAQs</a></li>
-          </ul>
-        </div>
-
+  <h2 className="text-lg font-semibold">Quick Links</h2>
+  <ul className="space-y-2 text-gray-400">
+    <li><a href="#home" className="hover:text-white transition">Home</a></li>
+    <li><a href="#services" className="hover:text-white transition">Services</a></li>
+   
+    <li><a href="#testimonials" className="hover:text-white transition">Testimonials</a></li>
+    <li><a href="#footer" className="hover:text-white transition">Contacts</a></li>
+  </ul>
+</div>
         {/* Contact Info */}
         <div className="space-y-3">
           <h2 className="text-lg font-semibold">Contact Us</h2>
           <div className="flex items-center gap-2 text-gray-400"><MapPin className="w-4 h-4" /> PLOT NO.3, GATA NO.24 , NAVI KOT NANDANA, Bakshi Ka Talab, Lucknow, Uttar Pradesh, 226013, India</div>
-          <div className="flex items-center gap-2 text-gray-400"><Mail className="w-4 h-4" /> info@hotelfortinn.com</div>
+          <div className="flex items-center gap-2 text-gray-400"><Mail className="w-4 h-4" /> hotelfortinngroup@gmail.com</div>
           <div className="flex items-center gap-2 text-gray-400"><Phone className="w-4 h-4" /> +91 9170435385</div>
           {/* <div className="mt-4 text-gray-400">
             <p>Check-in: 12:00 PM | Check-out: 11:00 AM</p>

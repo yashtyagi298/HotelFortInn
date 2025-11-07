@@ -9,20 +9,20 @@ import HotelMap from "../components/HotelMap";
 
 const hotelsData = {
   Lucknow: [
-    { _id: '1', id: '1', hotel: { name: 'BKT Hotel', address: 'BKT, Lucknow' }, images: [assets.lucknowbkt2 , assets.lucknowbkt1 , assets.lucknowbkt3], pricePerNight: 2500 },
-    { _id: '2', id: '2', hotel: { name: 'Indira Nagar Inn', address: 'Indira Nagar, Lucknow' }, images: [assets.lucknowindranagar2 , assets.lucknowindranagar1 , assets.lucknowindranagar3], pricePerNight: 3000 },
-    { _id: '3', id: '3', hotel: { name: 'Faizullaganj Stay', address: 'Faizullaganj, Lucknow' }, images: [assets.lucknowchinhat3 , assets.lucknowindranagar2 , assets.lucknowchinhat1], pricePerNight: 2800 },
-    { _id: '4', id: '4', hotel: { name: 'Chinhat Palace', address: 'Chinhat, Lucknow' }, images: [assets.lucknowchinhat1 , assets.lucknowchinhat2 , assets.lucknowchinhat3], pricePerNight: 3500 },
+    { _id: '1', id: '1', hotel: { name: 'Hotel Fort Inn', address: 'Bakshi-ka-talab (BKT), Lucknow' }, images: [assets.lucknowbkt2 , assets.lucknowbkt1 , assets.lucknowbkt3], pricePerNight: 2500 },
+    { _id: '2', id: '2', hotel: { name: 'Hotel Fort Inn', address: 'Indira Nagar, Lucknow' }, images: [assets.lucknowindranagar2 , assets.lucknowindranagar1 , assets.lucknowindranagar3], pricePerNight: 3000 },
+    { _id: '3', id: '3', hotel: { name: 'Hotel Fort Inn', address: 'Faizullaganj, Lucknow' }, images: [assets.lucknowchinhat3 , assets.lucknowindranagar2 , assets.lucknowchinhat1], pricePerNight: 2800 },
+    { _id: '4', id: '4', hotel: { name: 'Hotel Fort Inn', address: 'Chinhat, Lucknow' }, images: [assets.lucknowchinhat1 , assets.lucknowchinhat2 , assets.lucknowchinhat3], pricePerNight: 3500 },
   ],
   Kanpur: [
-    { _id: '5', id: '5', hotel: { name: 'Barra Bypass Hotel', address: 'Barra Bypass, Kanpur' }, images: [assets.kanpurroom2], pricePerNight: 2700 },
-    { _id: '6', id: '6', hotel: { name: 'Kidwai Nagar Inn', address: 'Kidwai Nagar, Kanpur' }, images: [assets.kidwaikanpur1 , assets.kidwaikanpur2 , assets.kidwaikanpur3 , assets.kidwaikanpur4], pricePerNight: 2900 },
+    { _id: '5', id: '5', hotel: { name: 'Hotel Fort Inn', address: 'Barra Bypass, Kanpur' }, images: [assets.kanpurroom2], pricePerNight: 2700 },
+    { _id: '6', id: '6', hotel: { name: 'Hotel Fort Inn', address: 'Kidwai Nagar, Kanpur' }, images: [assets.kidwaikanpur1 , assets.kidwaikanpur2 , assets.kidwaikanpur3 , assets.kidwaikanpur4], pricePerNight: 2900 },
   ],
   'Greater Noida': [
-    { _id: '7', id: '7', hotel: { name: 'Parichowk Suites', address: 'Parichowk, Greater Noida' }, images: [assets.parichowk2 , assets.parichowk3 , assets.parichowk4], pricePerNight: 3200 },
+    { _id: '7', id: '7', hotel: { name: 'Hotel Fort Inn', address: 'Parichowk, Greater Noida' }, images: [assets.parichowk2 , assets.parichowk3 , assets.parichowk4], pricePerNight: 3200 },
   ],
   Manali: [
-    { _id: '8', id: '8', hotel: { name: 'Manali Resort', address: 'Manali' }, images: [assets.manaliroom3 , assets.manaliroom4 , assets.manaliroom5,assets.manaliroom6], pricePerNight: 4500 },
+    { _id: '8', id: '8', hotel: { name: 'Hotel Fort Inn', address: 'Manali' }, images: [assets.manaliroom3 , assets.manaliroom4 , assets.manaliroom5,assets.manaliroom6], pricePerNight: 4500 },
   ],
 };
  const hotels = {
