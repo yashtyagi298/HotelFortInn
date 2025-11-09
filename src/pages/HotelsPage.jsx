@@ -21,7 +21,7 @@ const hotelsData = {
     { _id: '7', id: '7', hotel: { name: 'Hotel Fort Inn', address: 'Parichok, Greater Noida' }, images: [assets.parichowk1], pricePerNight: 3200 },
   ],
   Manali: [
-    { _id: '8', id: '8', hotel: { name: 'Manali Resort', address: 'Manali' }, images: [assets.manaliroom1], pricePerNight: 4500 },
+    { _id: '8', id: '8', hotel: { name: 'Hotel Fort Inn', address: 'Manali' }, images: [assets.manaliroom1], pricePerNight: 4500 },
   ],
 };
 
