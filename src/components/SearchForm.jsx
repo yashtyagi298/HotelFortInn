@@ -56,10 +56,11 @@ const SearchForm = () => {
           className="w-full rounded-lg border border-gray-300 bg-white text-gray-800 px-3 py-3 text-sm outline-none focus:ring-2 focus:ring-yellow-400 transition"
         >
           <option value="">Select City</option>
-          <option value="Manali">Lucknow</option>
-          <option value="Lucknow">Kanpur</option>
-          <option value="Jaipur">Manali</option>
-          <option value="Goa">Greater Noida</option>
+         
+          <option value="Lucknow">Lucknow</option>
+          <option value="Kanpur">Kanpur</option>
+          <option value="Greater Noida">Greater Noida</option>
+           <option value="Manali">Manali</option>
         </select>
       </div>
 
