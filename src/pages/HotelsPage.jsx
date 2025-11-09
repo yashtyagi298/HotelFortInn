@@ -9,7 +9,7 @@ import SearchForm from '../components/SearchForm';
 const hotelsData = {
   Lucknow: [
     { _id: '1', id: '1', hotel: { name: 'Hotel Fort Inn', address: 'Bakshi-ka-talab (BKT), Lucknow' }, images: [assets.lucknowbkt2], pricePerNight: 2500 },
-    { _id: '2', id: '2', hotel: { name: 'Hotel Fort Inn', address: 'Indira Nagar, Lucknow' }, images: [assets.lucknowchinhat1], pricePerNight: 3000 },
+    { _id: '2', id: '2', hotel: { name: 'Hotel Fort Inn', address: 'Indira Nagar, Lucknow' }, images: [assets.lucknowindranagar1], pricePerNight: 3000 },
     { _id: '3', id: '3', hotel: { name: 'Hotel Fort Inn', address: 'Faizullaganj, Lucknow' }, images: [assets.lucknowfizulganj2], pricePerNight: 2800 },
     { _id: '4', id: '4', hotel: { name: 'Hotel Fort Inn', address: 'Chinhat, Lucknow' }, images: [assets.lucknowchinhat3], pricePerNight: 3500 },
   ],
