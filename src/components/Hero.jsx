@@ -27,7 +27,7 @@ const Hero = () => {
         {/* 🔹 Title */}
         <h1 className="font-playfair text-3xl md:text-6xl font-extrabold max-w-2xl mx-auto leading-tight">
          
-Welcome to Hotel Fort Inn — Where Comfort Meets Character.
+Welcome to Hotel Fort Inn Where Comfort Meets Character.
 
         </h1>
 
