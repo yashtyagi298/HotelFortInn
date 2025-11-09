@@ -3,15 +3,15 @@ import React from "react";
 export default function Testimonials() {
   const testimonialsData = [
     {
-      name: "Donald Jackman",
+      name: "Ajay Mishra",
       role: "Content Creator",
-      image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=100",
+      image: "https://images.unsplash.com/photo-1649433658557-54cf58577c68?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=764",
       text: "Had a wonderful experience at Parichowk Suites. The service quality and cleanliness truly stood out. Perfect blend of comfort and luxury, ideal for family and business stays alike.",
     },
     {
-      name: "Richard Nelson",
+      name: "Shiva Rawat",
       role: "Instagram Influencer",
-      image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=100",
+      image: "https://images.unsplash.com/photo-1641466578751-46bfd407146a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735",
       text: "Staying at Parichowk Suites was amazing! The rooms were clean, modern, and comfortable. Staff was super polite and helpful. Highly recommended for anyone visiting Greater Noida!",
     },
     {

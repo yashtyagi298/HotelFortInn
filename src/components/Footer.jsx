@@ -67,11 +67,11 @@ export default function Footer() {
 
           {/* Location */}
           <div className="flex items-start gap-3 text-gray-400 text-sm sm:text-base leading-relaxed">
-            <MapPin className="w-5 h-5 text-gray-500 mt-1 flex-shrink-0" />
+            {/* <MapPin className="w-5 h-5 text-gray-500 mt-1 flex-shrink-0" />
             <span>
               PLOT NO.3, GATA NO.24, NAVI KOT NANDANA, BAKASHI KA TALAB,
               LUCKNOW, UTTAR PRADESH, 226013, INDIA
-            </span>
+            </span> */}
           </div>
 
           {/* Email */}

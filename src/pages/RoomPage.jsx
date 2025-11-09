@@ -42,7 +42,7 @@ const hotelsData = {
       _id: "3",
       id: "3",
       hotel: { name: "Hotel Fort Inn", address: "Faizullaganj, Lucknow" },
-      images: [assets.lucknowfizulganj1, assets.lucknowfizulganj2, assets.lucknowfizulganj3],
+      images: [assets.lucknowfizulganj1, assets.lucknowfizulganj2],
       pricePerNight: 2800,
       lat: 26.869980,
       lng: 80.960060,
