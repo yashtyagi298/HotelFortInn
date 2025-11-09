@@ -21,20 +21,22 @@ const hotelsData = {
 };
 
 const BookingForm = () => {
-  const { id } = useParams(); // 👈 e.g. /rooms/7 → id = "7"
+  const { id } = useParams(); // e.g. /rooms/7 → id = "7"
 
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [guests, setGuests] = useState("1");
   const [roomType, setRoomType] = useState("");
   const [destination, setDestination] = useState("");
+  const [hotelName, setHotelName] = useState("");
 
   useEffect(() => {
-    // 🔍 Find city based on hotel id
+    // 🔍 Find hotel & city based on hotel id
     for (const [city, hotels] of Object.entries(hotelsData)) {
       const match = hotels.find((hotel) => hotel.id === id);
       if (match) {
         setDestination(city);
+        setHotelName(match.hotel.name);
         break;
       }
     }
@@ -51,7 +53,7 @@ const BookingForm = () => {
     const message = `
 🛎️ New Booking Inquiry!
 ---------------------------------
-📍 Destination: ${destination}
+📍 Destination: ${destination} – ${hotelName}
 📅 Check-in: ${checkIn}
 📅 Check-out: ${checkOut}
 👥 Guests: ${guests}

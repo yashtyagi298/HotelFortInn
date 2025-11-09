@@ -13,12 +13,13 @@ L.Icon.Default.mergeOptions({
     "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
 });
 
-// 🧭 Component to handle map click event
-const MapClickHandler = ({ lat, lng }) => {
+// 🧭 Component to handle map click event (open Google Maps by address)
+const MapClickHandler = ({ address, hotelName }) => {
   useMapEvents({
     click: () => {
-      const googleMapsUrl = `https://www.google.com/maps?q=${lat},${lng}`;
-      window.open(googleMapsUrl, "_blank"); // open Google Maps in new tab
+      const query = encodeURIComponent(`${hotelName}, ${address}`);
+      const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${query}`;
+      window.open(googleMapsUrl, "_blank");
     },
   });
   return null;
@@ -45,6 +46,8 @@ const HotelMap = ({ lat, lng, hotelName, address }) => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
         />
+
+        {/* Marker with popup info */}
         <Marker position={[lat, lng]}>
           <Popup>
             <div className="text-sm text-gray-800">
@@ -53,7 +56,9 @@ const HotelMap = ({ lat, lng, hotelName, address }) => {
               {address}
               <br />
               <a
-                href={`https://www.google.com/maps?q=${lat},${lng}`}
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                  `${hotelName}, ${address}`
+                )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 underline text-xs mt-1 inline-block"
@@ -64,8 +69,8 @@ const HotelMap = ({ lat, lng, hotelName, address }) => {
           </Popup>
         </Marker>
 
-        {/* ✅ When map clicked, open in Google Maps */}
-        <MapClickHandler lat={lat} lng={lng} />
+        {/* ✅ When map clicked, open Google Maps with address */}
+        <MapClickHandler address={address} hotelName={hotelName} />
       </MapContainer>
 
       <div className="absolute bottom-2 right-2 bg-white/90 text-xs px-2 py-1 rounded-md shadow">
