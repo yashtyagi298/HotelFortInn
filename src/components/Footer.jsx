@@ -29,7 +29,12 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Instagram className="w-6 h-6 text-white hover:text-pink-500 transition" />
+            <div className="flex gap-3 flex-wrap ">
+                <Instagram className="w-6 h-6 text-white hover:text-pink-500 transition" /> 
+              <span className="font-light  text-sm text-gray-300">
+                👈 Follow for More Updates 🔔 
+              </span>
+            </div>
             </a>
           </div>
         </div>

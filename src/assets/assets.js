@@ -48,8 +48,9 @@ import parichowk2 from './parichowk2.jpg'
 import parichowk3 from './parichowk3.jpg'
 import parichowk4 from './parichowk4.jpg'
 
-import kanpurroom1 from './Kanpurroom1.jpg'
-import kanpurroom2 from './kanpurroom2.jpg'
+import kanpurroom1 from './kanpurbarra1.PNG'
+import kanpurroom2 from './kanpurbarra2.PNG'
+import kanpurroom3 from './kanpurbarra3.PNG'
 
 import kidwaikanpur1 from './kanpurkidwai1.jpg'
 import kidwaikanpur2 from './kanpurkidwai2.jpg'
@@ -68,9 +69,9 @@ import lucknowindranagar1 from './lucknowindranagar1.jpg'
 import lucknowindranagar2 from './lucknowindranagar2.jpg'
 import lucknowindranagar3 from './lucknowindranagar3.jpg'
 
-import lucknowfizulganj1 from './lucknowfizulganj.jpg'
-import lucknowfizulganj2 from './lucknowfizulganj (2).jpg'
-import lucknowfizulganj3 from './lucknowfizulganj (3).jpg'
+import lucknowfizulganj1 from './lucknowfizulganj1.jpg'
+import lucknowfizulganj2 from './lucknowfizulganj2.jpg'
+import lucknowfizulganj3 from './lucknowfizulganj3.jpg'
 
 
 import exclusiveOfferCardImg1 from "./exclusiveOfferCardImg1.png";
@@ -88,6 +89,7 @@ import totalRevenueIcon from "./totalRevenueIcon.svg";
 // 🔹 Export All Icons as Object
 // ==========================
 export const assets = {
+  kanpurroom3,
   lucknowfizulganj3,
   lucknowfizulganj2,
   lucknowfizulganj1,
